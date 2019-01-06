@@ -1,0 +1,20 @@
+python experiments/faster_rcnn/rcnn_end2end_train_test.py --cfg experiments/faster_rcnn/cfgs/resnet_v1_101_voc0712_rcnn_dcn_end2end.yaml
+python experiments/faster_rcnn/rcnn_test.py --cfg experiments/faster_rcnn/cfgs/resnet_v1_101_voc0712_rcnn_dcn_end2end.yaml
+
+python2 experiments/faster_rcnn/rcnn_test.py --cfg experiments/faster_rcnn/cfgs/resnet_v1_101_voc0712_rcnn_dcn_dense_end2end_ohem.yaml
+
+python experiments/faster_rcnn/rcnn_test.py --cfg experiments/faster_rcnn/cfgs/resnet_v1_101_voc0712_rcnn_end2end_ohem.yaml
+
+python experiments/fpn/fpn_end2end_train_test.py --cfg experiments/fpn/cfgs/resnet_v1_101_voc0712_fpn_dcn_end2end_ohem.yaml
+
+python experiments/faster_rcnn/rcnn_end2end_train_test.py --cfg experiments/faster_rcnn/cfgs/resnet_v1_101_voc0712_rcnn_end2end_ohem.yaml
+
+python experiments/faster_rcnn/rcnn_end2end_train_test.py --cfg experiments/faster_rcnn/cfgs/resnet_v1_101_voc0712_rcnn_dcn_end2end_ohem.yaml
+
+python experiments/faster_rcnn/rcnn_end2end_train_test.py --cfg experiments/faster_rcnn/cfgs/resnet_v1_101_voc0712_rcnn_dcn_dense_end2end.yaml
+
+python experiments/faster_rcnn/rcnn_end2end_train_test.py --cfg experiments/faster_rcnn/cfgs/resnet_v1_101_voc0712_rcnn_dcn_dense_end2end_ohem.yaml
+
+
+F:\linux\VOCdevkit_gangtie
+
